@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="6" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2864DC" />
+      <stop offset="60%" stop-color="#18BDB5" />
+      <stop offset="100%" stop-color="#13A99A" />
+    </linearGradient>
+    <linearGradient id="dropGrad" x1="24" y1="12" x2="24" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5F2FF" />
+    </linearGradient>
+  </defs>
+  <!-- Stronghold Fortress Shield Base -->
+  <path d="M24 4L7 11V23.5C7 34.2 14.3 43.1 24 45.8C33.7 43.1 41 34.2 41 23.5V11L24 4Z" fill="url(#shieldGrad)" />
+  <!-- Fortress Crenellations / Battlements at top -->
+  <path d="M14 14V17H18V14H22V17H26V14H30V17H34V14" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.4" />
+  <!-- Central Precision Water Droplet & Pipe Geometry -->
+  <path d="M24 16C24 16 17 25 17 29.5C17 33.6 20.1 36.5 24 36.5C27.9 36.5 31 33.6 31 29.5C31 25 24 16 24 16Z" fill="url(#dropGrad)" />
+  <circle cx="24" cy="29.5" r="3.2" fill="#2864DC" />
+</svg>

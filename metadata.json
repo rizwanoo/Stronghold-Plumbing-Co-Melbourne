@@ -1,0 +1,6 @@
+{
+  "name": "Stronghold Plumbing Co — Melbourne",
+  "description": "Professional plumbing maintenance specialists servicing Melbourne. Quality residential and commercial maintenance, water systems, and leak diagnostics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

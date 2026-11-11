@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 68" fill="none">
+  <defs>
+    <linearGradient id="shGradFull" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2864DC" />
+      <stop offset="60%" stop-color="#18BDB5" />
+      <stop offset="100%" stop-color="#13A99A" />
+    </linearGradient>
+    <linearGradient id="dropGradFull" x1="32" y1="18" x2="32" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E5F2FF" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#2864DC" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Emblem / Shield -->
+  <g transform="translate(4, 4)">
+    <path d="M28 4L7 13.5V29C7 42 16 52.8 28 56C40 52.8 49 42 49 29V13.5L28 4Z" fill="url(#shGradFull)" filter="url(#subtleGlow)"/>
+    <!-- Fortress wall accents -->
+    <path d="M14 18V21.5H18.5V18H23V21.5H27.5V18H32V21.5H36.5V18H41V21.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.45" />
+    <!-- Water Drop -->
+    <path d="M28 22C28 22 19 32.5 19 37.8C19 42.8 23 46.5 28 46.5C33 46.5 37 42.8 37 37.8C37 32.5 28 22 28 22Z" fill="url(#dropGradFull)"/>
+    <!-- Pressure Core -->
+    <circle cx="28" cy="38" r="3.5" fill="#2864DC" />
+  </g>
+
+  <!-- Wordmark Text -->
+  <g transform="translate(74, 8)">
+    <!-- STRONGHOLD -->
+    <text x="0" y="32" font-family="'Barlow', sans-serif" font-size="28" font-weight="800" letter-spacing="1.5" fill="currentColor">
+      STRONGHOLD
+    </text>
+    <!-- PLUMBING CO. -->
+    <text x="1.5" y="49" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" letter-spacing="3.5" fill="#18BDB5">
+      PLUMBING CO.
+    </text>
+    <!-- Melbourne Servicing tag -->
+    <text x="124" y="49" font-family="'Inter', sans-serif" font-size="9" font-weight="600" letter-spacing="1" fill="currentColor" opacity="0.6">
+      · MELBOURNE
+    </text>
+  </g>
+</svg>
